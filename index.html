@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STP’21 SW committee Practical Test</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="images/stp.png">
+</head>
+<body>
+    <!-- add something Here  -->
+    <header>
+
+    </header>
+
+    <div class="STPbackground">
+
+        <div class="signBox">
+            <div class="signUPorSignIn">
+                <div id="mybtn"></div>
+                <button type="button" class="toggle-up-in" onclick="signIn()">Sign In</button>
+                <button type="button" class="toggle-up-in" onclick="signUp()" >Sign Up</button>
+
+            </div>
+            <form id="signUp" class="userinputs">
+                <input type="text" class="input-element" placeholder="Your Full Name is .... " required > 
+                <input type="text" class="input-element" placeholder="Your Committee Name ...  " required > 
+                <input type="tel" class="input-element" placeholder="Phone Number " required > 
+                <input type="email" class="input-element" placeholder="Email " required > 
+                <input type="password" class="input-element" placeholder="Password " required > 
+                <input type="password" class="input-element" placeholder="Re type Password " required > 
+                <!-- <input type="image" class="input-element" placeholder="upload your image " required >  -->
+                <button type="submit" class="signup-btn"> Sign Up </button>
+            </form >
+            <form id="signIn" class="userinputs">
+                <input type="email" class="input-element" placeholder="Your Email " required > 
+                <input type="password" class="input-element" placeholder="Your Password " required > 
+                <button type="submit" class="signin-btn"> Sign In </button>
+            </form >
+            
+        </div>
+
+    </div >
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
